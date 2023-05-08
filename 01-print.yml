@@ -1,4 +1,4 @@
--name:Demo on  First ANsible Playbook
+- name:Demo on  First ANsible Playbook
   hosts: all
   tasks:
     -name: Print Hello World
