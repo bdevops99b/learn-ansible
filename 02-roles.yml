@@ -2,3 +2,6 @@
   hosts: all
   roles:
    - sample
+
+- name: Demo
+  hosts: all
