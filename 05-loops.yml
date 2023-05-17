@@ -1,0 +1,11 @@
+- name: Demo on Loops
+  hosts: local
+  connection: local
+  tasks:
+    - name: Demo on Loops
+      ansible.builtin.debug:
+        msg: Fruit name - {{ item }}
+      loop:
+        - apple
+        - mango
+
